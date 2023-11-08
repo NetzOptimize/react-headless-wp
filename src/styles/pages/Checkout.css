@@ -1,0 +1,177 @@
+.checkout_wrapper {
+  background-color: black;
+  height: 100%;
+  display: flex;
+  width: 100%;
+}
+
+.checkout_sub_wrapper {
+  margin-right: auto;
+  margin-left: auto;
+  padding: 60px;
+  width: 90%;
+}
+
+.checkout_summary_wrapper {
+  padding: 60px;
+  width: 30%;
+}
+.checkout_summary_items {
+  height: 50px;
+}
+.checkout_summary_items > h2 {
+  color: white;
+}
+
+.checkout_underline {
+  width: 100%;
+  height: 2px;
+  background: #acff43;
+  max-width: 277px;
+}
+
+.checkout_summary_table_body > tr > th {
+  padding: 20px;
+  width: 500px;
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 0px;
+  line-height: 32px !important;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.checkout_summary_table_body > tr {
+  color: white;
+  text-align: left;
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 0px;
+  line-height: 32px !important;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.checkout_proceed {
+  line-height: 16px;
+  letter-spacing: 0px;
+  color: #000000;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 26px;
+  background-color: #acff43;
+  padding: 1em;
+  cursor: pointer;
+  border: none;
+  font-size: 1.25em;
+  width: 100%;
+}
+
+.checkout_logo {
+  width: 110px;
+}
+
+.checkout_form {
+  max-width: 860px;
+}
+
+.form {
+  margin-top: 20px;
+  max-width: 860px;
+}
+
+.checkout_form > h3 {
+  color: white;
+}
+
+.full_name {
+  color: white;
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.first_name {
+  display: flex;
+  flex-direction: column;
+  width: 420px;
+}
+
+.last_name {
+  display: flex;
+  flex-direction: column;
+  width: 420px;
+}
+
+.input {
+  height: 63px;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  color: #fff !important;
+  font-size: 18px;
+  letter-spacing: 0px;
+  line-height: 32px;
+  font-weight: 600;
+  font-family: "Maison Neue Ext";
+}
+
+.label {
+  font-size: 18px;
+  letter-spacing: 0px;
+  line-height: 32px !important;
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 400;
+  font-family: "Maison Neue Ext";
+  margin: 0 0 10px 0;
+}
+
+.company {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.address_details {
+  color: white;
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.address_details > div {
+  display: flex;
+  flex-direction: column;
+  width: 420px;
+}
+
+.products {
+  padding: 20px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.products_img {
+  width: 90px;
+  height: 90px;
+  border-radius: 5px;
+}
+
+.product_name {
+  color: white;
+}
+
+.product_price {
+  color: white;
+}
+
+.validation_error {
+  color: red;
+}

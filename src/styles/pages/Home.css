@@ -1,0 +1,251 @@
+.home_main_wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.home_sub_wrapper {
+  position: relative;
+}
+
+.home_banner {
+  height: 850px;
+  width: 100%;
+}
+.swiper_contents {
+  position: absolute;
+  top: 350px;
+  width: 38%;
+  left: 50%;
+  margin: auto;
+  right: 0;
+}
+
+.swiper_heading {
+  color: #ffffff;
+  font-family: "Oswald", Sans-serif;
+  font-size: 120px;
+  font-weight: 500;
+  line-height: 89px;
+  letter-spacing: -2px;
+  margin-bottom: 30px;
+}
+
+.swiper_description {
+  color: #ffffff;
+  font-family: "Maison Neue Ext", Sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 34px;
+}
+
+.shop_button {
+  font-family: "Oswald", Sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 39px;
+  padding: 10px;
+  border-width: 0px;
+  border-radius: 4px;
+  color: #000000;
+  background-color: #acff43;
+  cursor: pointer;
+}
+
+.home_body {
+}
+
+.heading_wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.body_heading {
+  font-size: 50px;
+  line-height: 1em;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.body_sub_heading {
+  text-align: center;
+  color: #535252;
+  font-family: "Maison Neue Ext", Sans-serif;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.usa_log {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.made_in {
+  color: #000000;
+  font-family: "Maison Neue Ext", Sans-serif;
+  font-size: 53px;
+  font-weight: bold;
+  line-height: 98px;
+}
+
+.pilePad_info_wrapper {
+  padding: 163px 0px 207px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.pilePad_info {
+  gap: 40px;
+  display: flex;
+}
+
+.without_pilePad img {
+  width: 100%;
+  height: 600px;
+}
+
+.with_pilePad img {
+  width: 100%;
+  height: 600px;
+}
+
+.why_pilePad {
+  width: 480px;
+}
+
+.why_pilePad > h2 {
+  color: #000000;
+  font-size: 70px;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 88px;
+  margin: 0;
+}
+
+.why_pilePad > h3 {
+  color: #161c2d;
+  font-family: "Maison Neue Ext", Sans-serif;
+  font-size: 29px;
+  font-weight: bold;
+  line-height: 34px;
+  margin-top: 10px;
+}
+
+.why_pilePad > p {
+  color: #636363;
+  font-family: "Maison Neue Ext", Sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 33px;
+  letter-spacing: 0px;
+  margin-top: 10px;
+}
+
+.latest_product {
+}
+
+.angled {
+  width: 49.99%;
+  display: flex;
+}
+
+.angled > img {
+  width: 100%;
+  height: 730px;
+}
+
+.straight {
+  width: 49.99%;
+  display: flex;
+}
+
+.straight > img {
+  width: 100%;
+  height: 730px;
+}
+
+.latest_product_sub_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.comparison_product_content {
+  position: absolute;
+  filter: drop-shadow(1.763px 2.427px 14.5px rgba(0, 0, 0, 1));
+  padding-left: 70px;
+  margin-top: 150px;
+}
+
+.comparison_product_content h2 {
+  font-family: "Oswald", Sans-serif;
+  font-size: 70px;
+  line-height: 62px;
+  font-weight: 500;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.comparison_product_content p {
+  font-size: 22px;
+  line-height: 1.2;
+  padding: 20px 0 17px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.buy_now {
+  max-width: 199px;
+  width: 100%;
+  border-radius: 4px;
+  transform: skewX(-10deg);
+  background-color: #acff43;
+  font-size: 18px;
+  line-height: 1.4;
+  cursor: pointer;
+}
+
+.installation_wrapper img {
+  width: 100%;
+  height: 700px;
+}
+
+.installation_sub_wrapper {
+  width: 100%;
+  justify-content: center;
+  height: 580px;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  gap: 150px;
+  z-index: 1;
+}
+
+.installation img {
+  width: 500px;
+  height: 380px;
+  border-radius: 10px;
+}
+
+.installation h2 {
+  color: white;
+  font-size: 38px;
+  line-height: 1em;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.installation p {
+  color: white;
+  font-size: 22px;
+  line-height: 1.3em;
+  text-transform: uppercase;
+}
+
+section.installation_wrapper {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}

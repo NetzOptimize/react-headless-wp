@@ -1,0 +1,120 @@
+.store_main_container {
+}
+
+.store_head_container {
+  width: 1920px;
+  display: flex;
+}
+
+.wallpaper {
+  min-width: 960px;
+  height: 600px;
+}
+
+.head_right_container {
+  background-color: #acff43;
+  width: 960px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.heading_title {
+  width: 820px;
+  color: #000000;
+  font-family: "Oswald", Sans-serif;
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 70px;
+}
+
+.heading_widget_container {
+  width: 820px;
+  color: #000000;
+  font-family: "Maison Neue Ext", Sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 42px;
+}
+
+.products_wrapper {
+  width: 1440px;
+  display: flex;
+  padding: 230px;
+}
+
+.product {
+  width: 330px;
+  padding: 30px 20px 30px 20px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product_name {
+  font-family: "Maison Neue Ext", Sans-serif;
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 40px;
+  letter-spacing: 1px;
+}
+
+.product_price {
+  font-family: "Maison Neue Ext", Sans-serif;
+  font-size: 27px;
+  font-weight: 800;
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+
+.left_wrapper {
+  width: 268px;
+}
+
+.right_wrapper {
+  width: 1150px;
+}
+
+.right_sub_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.add_to_cart {
+  display: flex;
+  width: 100%;
+  max-width: 299px;
+  margin: 25px auto 0;
+  transform: skewX(-6deg);
+  background: #acff43 !important;
+  border-radius: 5px !important;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  transition: 0.1s ease-in-out;
+  cursor: pointer;
+  border: none;
+  font-weight: 700;
+}
+
+.cart_icon {
+  position: absolute;
+  content: "";
+  width: 19px;
+  height: 22px;
+  left: 69px;
+  top: 15px;
+  transition: 0.1s ease-in-out;
+}
+
+.add_to_cart:hover .cart_icon {
+  filter: invert(1);
+}
+.add_to_cart:hover {
+  color: #ffffff;
+}

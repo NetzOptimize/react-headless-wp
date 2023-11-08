@@ -1,0 +1,72 @@
+.nav_wrapper {
+  position: fixed;
+  top: 20px;
+  left: 30px;
+  right: 30px;
+  z-index: 999;
+}
+
+.nav_sub_wrapper {
+  border-radius: 5px;
+  background-color: #191b21d6;
+}
+
+.nav_menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
+
+.nav_menu_list {
+  display: flex;
+  flex-direction: row;
+  gap: 55px;
+  list-style: none;
+  align-items: center;
+  margin: 0px;
+}
+
+.nav_menu_list > li {
+  list-style: none;
+  font-family: "Maison Neue Ext", Sans-serif;
+  font-size: 19px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: white;
+  cursor: pointer;
+}
+
+.logo {
+  object-fit: contain;
+  width: 130px;
+  height: 65px;
+}
+
+.cart_image {
+  width: 49px;
+  height: 49px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.cart {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+}
+
+.cart_count > span {
+  position: relative;
+  top: -20px;
+  left: 50px;
+  background: #acff43;
+  padding: 0px 6px 2px;
+  line-height: 1;
+  border-radius: 100%;
+}
